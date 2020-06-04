@@ -1,0 +1,8 @@
+.headerStyle {
+  width: 80%;
+  height: 74px;
+  margin: 0 auto;
+}
+.navStyle {
+  display: flex;
+}
