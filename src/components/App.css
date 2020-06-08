@@ -3,10 +3,22 @@
 *::after {
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 
 body {
+  height: 100%;
   margin: 0;
-  background-color: #8e4423;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: repeating-linear-gradient(
+    -45deg,
+    #8a4222,
+    #8a4222 4px,
+    #8e4423 4px,
+    #8e4423 28px
+  );
 }
 a {
   text-decoration: none;
@@ -17,6 +29,7 @@ a {
 }
 header {
   width: 80%;
-  height: 74px;
-  margin: 0 auto;
+}
+header div {
+  display: flex;
 }

@@ -1,8 +1,33 @@
 .headerStyle {
-  width: 80%;
   height: 74px;
   margin: 0 auto;
 }
-.navStyle {
+.headStyle {
   display: flex;
+  justify-content: space-between;
+}
+.logoLink {
+  font-size: 1.875rem;
+  /* 0.0625 * px = rem */
+}
+.navLink {
+  color: #e6e3bb;
+  font-size: 0.875rem;
+}
+header {
+  background-color: #242729;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.13),
+    rgba(0, 0, 0, 0.13)
+  );
+  border-radius: 0 0 10px 10px;
+}
+.place {
+  border: none;
+  background-color: #202224;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.19),
+    rgba(255, 255, 255, 0.19)
+  );
+  border-radius: 4px;
 }
