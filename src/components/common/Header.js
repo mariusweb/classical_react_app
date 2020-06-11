@@ -1,48 +1,20 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
+import "../../assets/fonts/stylesheet.css";
+import Logo from "./headerSections/Logo";
+import HeaderNav from "./headerSections/HeaderNav";
+import SignIn from "./headerSections/SignIn";
 
 const Header = () => {
   return (
-    <header className={styles.headerStyle}>
+    <header>
       <div className={styles.headStyle}>
-        <div className="logo">
-          <NavLink
-            to="/"
-            exact
-            className={`${styles.navLink} ${styles.logoLink}`}
-          >
-            <h1>__1981__</h1>
-          </NavLink>
+        <div className={styles.navStyle}>
+          <Logo />
+          <div className={styles.headerLine}></div>
+          <HeaderNav />
         </div>
-        {" | "}
-        <nav>
-          <NavLink to="/" exact className={styles.navLink}>
-            Home
-          </NavLink>
-          <NavLink to="/about" className={styles.navLink}>
-            About
-          </NavLink>
-          <NavLink to="/work" className={styles.navLink}>
-            Work
-          </NavLink>
-          <NavLink to="/blog" className={styles.navLink}>
-            Blog
-          </NavLink>
-          <NavLink to="/contact" className={styles.navLink}>
-            Contact
-          </NavLink>
-        </nav>
-        <form>
-          <input
-            className={styles.place}
-            type="search"
-            name="Welcome Back"
-            id=""
-            placeholder="Welcome Back,"
-          />
-          <input type="submit" value="Client Sign-Out" />
-        </form>
+        <SignIn />
       </div>
     </header>
   );

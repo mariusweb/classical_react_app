@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "../assets/fonts/stylesheet.css";
 import { Route, Switch } from "react-router-dom";
 import Header from "./common/Header";
 import HomePage from "./home/HomePage";

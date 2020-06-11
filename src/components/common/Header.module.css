@@ -1,33 +1,109 @@
-.headerStyle {
-  height: 74px;
-  margin: 0 auto;
-}
-.headStyle {
-  display: flex;
-  justify-content: space-between;
-}
-.logoLink {
-  font-size: 1.875rem;
-  /* 0.0625 * px = rem */
-}
-.navLink {
-  color: #e6e3bb;
-  font-size: 0.875rem;
-}
 header {
+  display: block;
+  height: 74px;
+  width: 80%;
+  margin: 0 auto;
   background-color: #242729;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.13),
     rgba(0, 0, 0, 0.13)
   );
   border-radius: 0 0 10px 10px;
+  position: relative;
+  top: 0px;
+}
+.navStyle,
+.headStyle,
+.navSection,
+.signOut,
+.place {
+  display: flex;
+}
+.headStyle,
+.navSection,
+.signOut {
+  justify-content: space-between;
+}
+.logoLink,
+.navLink,
+.signButton input {
+  color: #e6e3bb;
+}
+.logoLink h1,
+.navLink,
+.nameStyle,
+.signButton input {
+  letter-spacing: 0em;
+  /* VA / 1000 = em */
+}
+.navLink,
+.nameStyle,
+.signButton input {
+  font-family: "Myriad Pro";
+  font-size: 0.875rem;
+}
+.headStyle {
+  width: 100%;
+}
+.navStyle {
+  width: 48.9583%;
+}
+.logoLink h1 {
+  margin: 20px 20px;
+  font-family: "Nikaia";
+  font-size: 1.875rem;
+  font-weight: normal;
+  /* 0.0625 * px = rem */
+}
+.nameStyle span,
+.navLink:hover {
+  color: #8e4423;
+}
+.headerLine {
+  background-color: #7b7a6d;
+  padding: 18px 0.5px;
+  margin: 19px 0;
+}
+.navSection {
+  width: 65.5319%;
+  margin: 29px 20px;
+}
+.signOut {
+  width: 31.0417%;
+  margin-right: 2.9167%;
+}
+.place,
+.signButton input {
+  border-radius: 4px;
+  margin: 24px 0;
 }
 .place {
-  border: none;
   background-color: #202224;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.19),
     rgba(255, 255, 255, 0.19)
   );
+  box-shadow: 0px 1px rgba(255, 255, 255, 0.52);
   border-radius: 4px;
+  width: 59.7315%;
+}
+.nameStyle {
+  font-weight: normal;
+  color: #7b7a6d;
+  margin: auto;
+}
+.signButton {
+  width: 36.2416%;
+}
+.signButton input {
+  width: 100%;
+  background-color: #8e4423;
+  border: none;
+  padding: 5px 8.7963%;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.19),
+    rgba(0, 0, 0, 0.19)
+  );
+  box-shadow: 0px 1px rgba(255, 255, 255, 0.22) inset;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.46);
 }

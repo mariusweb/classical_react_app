@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Nikaia";
+  src: url("subset-Nikaia-Regular10.eot");
+  src: url("subset-Nikaia-Regular10.eot?#iefix") format("embedded-opentype"),
+    url("subset-Nikaia-Regular10.woff2") format("woff2"),
+    url("subset-Nikaia-Regular10.woff") format("woff"),
+    url("subset-Nikaia-Regular10.ttf") format("truetype"),
+    url("subset-Nikaia-Regular10.svg#Nikaia-Regular10") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("subset-MyriadPro-Semibold.eot");
+  src: url("subset-MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("subset-MyriadPro-Semibold.woff2") format("woff2"),
+    url("subset-MyriadPro-Semibold.woff") format("woff"),
+    url("subset-MyriadPro-Semibold.ttf") format("truetype"),
+    url("subset-MyriadPro-Semibold.svg#MyriadPro-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("subset-MyriadPro-Bold.eot");
+  src: url("subset-MyriadPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("subset-MyriadPro-Bold.woff2") format("woff2"),
+    url("subset-MyriadPro-Bold.woff") format("woff"),
+    url("subset-MyriadPro-Bold.ttf") format("truetype"),
+    url("subset-MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("subset-MyriadPro-Regular.eot");
+  src: url("subset-MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("subset-MyriadPro-Regular.woff2") format("woff2"),
+    url("subset-MyriadPro-Regular.woff") format("woff"),
+    url("subset-MyriadPro-Regular.ttf") format("truetype"),
+    url("subset-MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TitilliumText14L";
+  src: url("subset-TitilliumText14L-800wt.eot");
+  src: url("subset-TitilliumText14L-800wt.eot?#iefix")
+      format("embedded-opentype"),
+    url("subset-TitilliumText14L-800wt.woff2") format("woff2"),
+    url("subset-TitilliumText14L-800wt.woff") format("woff"),
+    url("subset-TitilliumText14L-800wt.ttf") format("truetype"),
+    url("subset-TitilliumText14L-800wt.svg#TitilliumText14L-800wt")
+      format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TitilliumText14L";
+  src: url("subset-TitilliumText14L-250wt.eot");
+  src: url("subset-TitilliumText14L-250wt.eot?#iefix")
+      format("embedded-opentype"),
+    url("subset-TitilliumText14L-250wt.woff2") format("woff2"),
+    url("subset-TitilliumText14L-250wt.woff") format("woff"),
+    url("subset-TitilliumText14L-250wt.ttf") format("truetype"),
+    url("subset-TitilliumText14L-250wt.svg#TitilliumText14L-250wt")
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("subset-MyriadPro-It.eot");
+  src: url("subset-MyriadPro-It.eot?#iefix") format("embedded-opentype"),
+    url("subset-MyriadPro-It.woff2") format("woff2"),
+    url("subset-MyriadPro-It.woff") format("woff"),
+    url("subset-MyriadPro-It.ttf") format("truetype"),
+    url("subset-MyriadPro-It.svg#MyriadPro-It") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Vegur";
+  src: url("subset-Vegur-Regular.eot");
+  src: url("subset-Vegur-Regular.eot?#iefix") format("embedded-opentype"),
+    url("subset-Vegur-Regular.woff2") format("woff2"),
+    url("subset-Vegur-Regular.woff") format("woff"),
+    url("subset-Vegur-Regular.ttf") format("truetype"),
+    url("subset-Vegur-Regular.svg#Vegur-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
