@@ -36,6 +36,9 @@ header {
   letter-spacing: 0em;
   /* VA / 1000 = em */
 }
+p {
+  margin: 0;
+}
 .navLink,
 .nameStyle,
 .signButton input {
@@ -61,8 +64,11 @@ header {
 }
 .headerLine {
   background-color: #7b7a6d;
-  padding: 18px 0.5px;
+  height: 36px;
+  width: 1px;
+  /* padding: 18px 0.5px; */
   margin: 19px 0;
+  display: inline-block;
 }
 .navSection {
   width: 65.5319%;
@@ -86,6 +92,7 @@ header {
   box-shadow: 0px 1px rgba(255, 255, 255, 0.52);
   border-radius: 4px;
   width: 59.7315%;
+  height: 27px;
 }
 .nameStyle {
   font-weight: normal;
@@ -106,4 +113,6 @@ header {
   );
   box-shadow: 0px 1px rgba(255, 255, 255, 0.22) inset;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.46);
+}
+.dropdown {
 }
