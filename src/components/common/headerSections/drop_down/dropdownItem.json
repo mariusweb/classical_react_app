@@ -2,21 +2,25 @@
   {
     "id": 1,
     "title": "Print",
-    "path": "/print"
+    "path": "/work/print",
+    "bottomLine": true
   },
   {
     "id": 2,
     "title": "Interactive",
-    "path": "/interactive"
+    "path": "/work/interactive",
+    "bottomLine": true
   },
   {
     "id": 3,
     "title": "Video",
-    "path": "/video"
+    "path": "/work/video",
+    "bottomLine": true
   },
   {
     "id": 4,
     "title": "Mis & Labs",
-    "path": "/labs"
+    "path": "/work/labs",
+    "bottomLine": false
   }
 ]

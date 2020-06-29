@@ -1,14 +1,25 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "../../Header.module.css";
-// import onClickOutside from "react-onclickoutside";
+import onClickOutside from "react-onclickoutside";
 
-export const Dropdown = ({ title, item, multiSelect = false }) => {
+function Dropdown({ title, items = [], multiSelect = false }) {
   const [open, setOpen] = useState(false);
   const [selection, setSelection] = useState([]);
   const toggle = () => setOpen(!open);
+  Dropdown.handleClickOutside = () => setOpen(false);
 
   const handleOnClick = (item) => {};
+  const navBorderLine = {
+    borderBottom: "1px #3a3a3a solid",
+    boxShadow: " 0px -1px rgba(0, 0, 0, 0.98) inset",
+  };
+
+  const bottomLine = (item) => {
+    if (item.bottomLine === true) {
+      return navBorderLine;
+    }
+  };
 
   return (
     <div className={styles.dropdown}>
@@ -22,15 +33,25 @@ export const Dropdown = ({ title, item, multiSelect = false }) => {
         <p>{title}</p>
       </div>
       {open && (
-        <nav>
-          <NavLink to="/work">{item.title}</NavLink>
-          {/* <NavLink>{}</NavLink>
-          <NavLink>{}</NavLink>
-          <NavLink>{}</NavLink> */}
+        <nav className={styles.dropdownNav}>
+          {items.map((item) => (
+            <NavLink
+              className={styles.dropdownItem}
+              style={bottomLine(item)}
+              to={item.path}
+              key={item.id}
+              onClick={() => handleOnClick(item)}
+            >
+              {item.title}
+            </NavLink>
+          ))}
         </nav>
       )}
     </div>
   );
+}
+const clickOutsideConfig = {
+  handleClickOutside: () => Dropdown.handleClickOutside,
 };
 
-export default Dropdown;
+export default onClickOutside(Dropdown, clickOutsideConfig);

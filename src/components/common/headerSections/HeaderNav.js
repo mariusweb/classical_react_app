@@ -17,11 +17,7 @@ const HeaderNav = () => {
       <NavLink to="/about" className={styles.navLink}>
         About
       </NavLink>
-      <NavLink to="/work" className={styles.navLink}>
-        Work
-      </NavLink>
-      {/* {newDropdown} */}
-      <Dropdown title="Work" item={dropdownData} multiSelect />
+      <Dropdown title="Work" items={dropdownData} multiSelect />
       <NavLink to="/blog" className={styles.navLink}>
         Blog
       </NavLink>

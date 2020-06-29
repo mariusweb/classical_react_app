@@ -41,7 +41,8 @@ p {
 }
 .navLink,
 .nameStyle,
-.signButton input {
+.signButton input,
+.dropdownItem {
   font-family: "Myriad Pro";
   font-size: 0.875rem;
 }
@@ -114,5 +115,23 @@ p {
   box-shadow: 0px 1px rgba(255, 255, 255, 0.22) inset;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.46);
 }
-.dropdown {
+.dropdownNav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(34, 37, 39, 0.9);
+  width: 18.8333%;
+}
+/* .dropLine {
+  background-color: #3a3a3a;
+  box-shadow: 0px -1px rgba(0, 0, 0, 0.98);
+  height: 1px;
+  width: 179px;
+} */
+.dropdownItem {
+  color: #7b7a6d;
+}
+.dropdownItem:hover {
+  color: #e6e3bb;
 }
